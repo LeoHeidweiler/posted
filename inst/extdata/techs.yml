@@ -157,3 +157,15 @@ UREA-SYN:
   class: conversion
   sector: chemicals
   reference_flow: urea
+HDPE-POLY:
+  name: HDPE Plastics Polymerisation
+  desc: Polymerisation step for high-density polyethylene
+  class: conversion
+  sector: plastics
+  reference_flow: hdpe
+HDPE-INCINERATION:
+  name: Waste incineration for HDPE
+  desc: Waste incineration for high-density polyethylene
+  class: conversion
+  sector: plastics
+  reference_flow: heat

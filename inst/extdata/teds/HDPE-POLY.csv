@@ -1,0 +1,5 @@
+type,flow_type,region,period,component,reported_value,reported_unc,reported_unit,reference_value,reference_unit,comment,src_ref,src_comment
+capex,,,,,50,,EUR,,,,DUMMY,
+demand,elec,,,,0.1,,MWh,,,,DUMMY,
+demand,heat,,,,0.5,,MWh,,,,DUMMY,
+demand,hvcs,,,,1.05,,t,,,,DUMMY,

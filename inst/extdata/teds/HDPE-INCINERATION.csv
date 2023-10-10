@@ -1,0 +1,2 @@
+type,flow_type,region,period,component,reported_value,reported_unc,reported_unit,reference_value,reference_unit,comment,src_ref,src_comment
+demand,hdpe,,,,1,,kg,30,MJ,,DUMMY,
