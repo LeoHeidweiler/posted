@@ -35,8 +35,8 @@ class Units(unittest.TestCase):
     def test_convert(self):
         from posted.units import unit_convert
         self.assertEqual(unit_convert('kWh', 'MWh', 'Electricity'), 0.001)
-        self.assertAlmostEqual(unit_convert('MWh;HHV', 'm**3;std', 'Hydrogen'), 282.24994983007144, 5)
-        self.assertAlmostEqual(unit_convert('MWh/a;HHV', 'kg/a', 'Hydrogen'), 25.374270489723422, 5)
+        self.assertAlmostEqual(unit_convert('MWh;HHV', 'm**3;std', 'Hydrogen'), 282.2499498300714, 5)
+        self.assertAlmostEqual(unit_convert('MWh/a;HHV', 'kg/a', 'Hydrogen'), 25.37427048972342, 5)
         self.assertAlmostEqual(unit_convert('MW;LHV', 't/a', 'Hydrogen'), 262.82628262826285, 5)
 
 
